@@ -16,10 +16,6 @@
 @property NSString *lastName;
 
 @property float studentGrade;
-@property float averageGrade;
-@property float averageGradeWithBonus;
-@property NSString *classification;
-@property float standardDeviation;
 
 -(float) calculateClassAverageGradeByStudentGrade:(float [])studentGrade andSizeOfClass:(int) students;
 -(float) calculateClassAverageGradewithBonusByStudentGrade:(float [])studentGrade andSizeOfClass:(int) students;
